@@ -59,7 +59,9 @@ Index of evaluations and experiments conducted to assess Automatic Speech Recogn
 
 **Research Question:** How much accuracy improvement can be achieved through fine-tuning Whisper models compared to stock models on local inference?
 
-**Evaluation Repository:** [Fine-Tune-Accuracy-Evaluation](https://github.com/danielrosehill/Fine-Tune-Accuracy-Evaluation)
+**Evaluation Repositories:**
+- [Fine-Tune-Accuracy-Evaluation](https://github.com/danielrosehill/Fine-Tune-Accuracy-Evaluation)
+- [Whisper-Fine-Tune-Accuracy-Eval](https://github.com/danielrosehill/Whisper-Fine-Tune-Accuracy-Eval)
 
 ---
 
