@@ -1,6 +1,6 @@
 # Speech & ASR Evaluations Index
 
-A curated index of evaluations and experiments conducted to assess Automatic Speech Recognition (ASR) / Speech-to-Text (STT) system performance under various conditions.
+Index of evaluations and experiments conducted to assess Automatic Speech Recognition (ASR) / Speech-to-Text (STT) system performance under various conditions.
 
 **Author:** Daniel Rosehill
 **Related Index:** [Experiments-And-Evaluations-Index](https://github.com/danielrosehill/Experiments-And-Evaluations-Index)
