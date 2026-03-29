@@ -89,6 +89,14 @@ Index of evaluations and experiments conducted to assess Automatic Speech Recogn
 
 ---
 
+### Gemini 3.1 Lite Audio Understanding
+
+**Research Question:** How well does Gemini 3.1 Lite handle audio understanding tasks?
+
+**Evaluation Repository:** [Gemini-31-Lite-Audio-Understanding-Eval](https://github.com/danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval)
+
+---
+
 ## Datasets
 
 | Dataset | Purpose | Link |
