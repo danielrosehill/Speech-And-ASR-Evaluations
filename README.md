@@ -147,6 +147,16 @@ Index of evaluations and experiments assessing Automatic Speech Recognition (ASR
 
 ---
 
+### Apr 2026 — Audio Understanding Bitrate Evaluation
+
+**Question:** How low can MP3 bitrate go before transcription accuracy degrades on audio-input LLMs accessed via OpenRouter?
+
+**Links:** [GitHub](https://github.com/danielrosehill/Audio-Understanding-Bitrate-Eval-0426) · [Dataset](https://huggingface.co/datasets/danielrosehill/Audio-Understanding-Bitrate-Eval-0426)
+
+**Summary:** 12 OpenRouter audio-LLMs (Gemini family, GPT-Audio family, Voxtral, MiMo) × 4 dictation samples × 5 MP3 bitrates (16/24/32/48/64 kbps) = 240 API calls, scored by verbatim-transcription WER with per-call latency captured. Findings: bitrate barely matters above ~16 kbps for Gemini and Voxtral; Gemini 3 Flash Preview leads on accuracy (avg WER 0.014), Voxtral leads on accuracy-per-second (~1.0s latency); OpenAI's GPT-Audio models occasionally respond conversationally to the audio instead of transcribing it, even with an explicit verbatim prompt.
+
+---
+
 ## Datasets
 
 | Dataset | Samples | Purpose | Link |
@@ -159,6 +169,7 @@ Index of evaluations and experiments assessing Automatic Speech Recognition (ASR
 | Tech-Sentences-For-ASR-Training | 205 | Technical/developer vocabulary for ASR fine-tuning | [HF](https://huggingface.co/datasets/danielrosehill/Tech-Sentences-For-ASR-Training) |
 | Whisper-Fine-Tune-One-Shot-Eval | — | Fine-tuned Whisper vs commercial ASR API comparison | [HF](https://huggingface.co/datasets/danielrosehill/Whisper-Fine-Tune-One-Shot-Eval) |
 | Podcast-ASR-Evaluation | — | Podcast transcription ASR evaluation | [HF](https://huggingface.co/datasets/danielrosehill/Podcast-ASR-Evaluation) |
+| Audio-Understanding-Bitrate-Eval-0426 | 4 | MP3 bitrate × 12-model audio-LLM sweep; verbatim WER + latency | [HF](https://huggingface.co/datasets/danielrosehill/Audio-Understanding-Bitrate-Eval-0426) |
 
 ## Spaces
 
